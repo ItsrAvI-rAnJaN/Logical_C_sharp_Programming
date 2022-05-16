@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace LogiCSharpProg
 {
-    public class FibonacciSeries
+    internal class FibonacciSeries
     {
+
+        // sum of previous  two number is next term in Fabonacci Series... 
         public void calcFibonacciSeries()
         {    
             //Taking Variable Num1,Num2 ,num3 to store fabonacci series
@@ -16,7 +18,7 @@ namespace LogiCSharpProg
             int num3;
 
             // Taking Input from User of Length of Fabonacci Series...
-            Console.Write("Enter The Nth Length of Fabonacci Series :");
+            Console.Write("Enter The Nth Length of Fabonacci Series : ");
             int LengthOfFabonacci =Convert.ToInt32(Console.ReadLine());  // Storing Length of Fabonacci Series...
 
             //printing first & Second term of Fabonacci Series
