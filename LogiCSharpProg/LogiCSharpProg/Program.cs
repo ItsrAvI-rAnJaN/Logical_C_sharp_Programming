@@ -11,6 +11,7 @@ namespace LogiCSharpProg
             Console.WriteLine("Q2.Check The Number Is Perfect or Not");
             Console.WriteLine("Q3.Check Number Is Prime or Not");
             Console.WriteLine("Q4. Reverse a Number");
+            Console.WriteLine("Q5.Find Coupon Number");
             Console.WriteLine("######################################");
 
             // Taking Input From User of Question Number..
@@ -38,6 +39,10 @@ namespace LogiCSharpProg
                 case 4:
                     ReverseNumber objreverseno = new ReverseNumber();
                     objreverseno.ReverseNum();
+                    break;
+                case 5:
+                    CouponNumber objcoupon = new CouponNumber();
+                    objcoupon.CouponNum();
                     break;
 
 

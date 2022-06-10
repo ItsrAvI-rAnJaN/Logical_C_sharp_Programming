@@ -11,7 +11,7 @@ namespace LogiCSharpProg
         // Create Method to Check Prime Number.
         public void CheckPrimeNo()
         {
-            Console.Write("Enter the Number You Want to Check Prime or Not ? : ");
+            Console.Write("\nEnter the Number You Want to Check Prime or Not ? : ");
             // Taking Input From User..
             int Number = Convert.ToInt32(Console.ReadLine());
             int Flag = 0;
