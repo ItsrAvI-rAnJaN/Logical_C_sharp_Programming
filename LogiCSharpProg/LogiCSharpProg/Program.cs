@@ -44,6 +44,10 @@ namespace LogiCSharpProg
                     CouponNumber objcoupon = new CouponNumber();
                     objcoupon.CouponNum();
                     break;
+                case 6:
+                    SimulateStopwatch objstopwatch = new SimulateStopwatch();
+                    objstopwatch.StopWatchSimulation();
+                    break;
 
 
 
